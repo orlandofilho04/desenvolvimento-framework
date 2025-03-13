@@ -1,0 +1,22 @@
+Comandos docker
+https://programadriano.medium.com/principais-comandos-docker-f9b02e6944cd
+
+
+
+sudo systemctl restart apache2
+
+
+docker exec -it xampp_mysql /bin/bash
+docker inspect xampp_mysql
+mysql -u aluno -p --host=0.0.0.0 --port=3309
+
+sudo systemctl restart mysql
+
+show variables where variable_name='port';
+
+
+
+
+
+
+
