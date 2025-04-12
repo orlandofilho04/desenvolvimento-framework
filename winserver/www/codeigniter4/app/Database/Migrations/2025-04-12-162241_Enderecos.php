@@ -39,7 +39,7 @@ class Enderecos extends Migration
                 'unsigned' => true,
             ],
         ]);
-        $this->forge->addKey('id', true); // Chave primária
+        $this->forge->addKey('id', true);
         $this->forge->addForeignKey('cidade_id', 'cidades', 'cidades_id', 'CASCADE', 'CASCADE');
         $this->forge->addForeignKey('usuario_id', 'usuarios', 'usuarios_id', 'CASCADE', 'CASCADE');
         $this->forge->createTable('enderecos');
