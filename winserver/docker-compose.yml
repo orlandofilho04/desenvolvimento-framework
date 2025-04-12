@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   apache:
@@ -16,7 +16,7 @@ services:
 
   mysql:
     image: mysql:8.0
-    hostname: mysql_docker
+    hostname: mysql
     container_name: xampp_mysql
     restart: always
     environment:
@@ -25,8 +25,7 @@ services:
       MYSQL_USER: aluno
       MYSQL_PASSWORD: 123456
     ports:
-      - "3309:3309"
-    command: --port=3309
+      - "3309:3306" # <- porta externa 3309, interna continua 3306
     volumes:
       - /mysql_data:/var/lib/mysql
     networks:
@@ -40,7 +39,7 @@ services:
       - "8091:80"
     environment:
       PMA_HOST: mysql
-      PMA_PORT: 3309
+      PMA_PORT: 3306
       MYSQL_ROOT_PASSWORD: root
     depends_on:
       - mysql
@@ -49,5 +48,3 @@ services:
 
 networks:
   xampp_network:
-
-
