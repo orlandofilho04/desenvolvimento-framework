@@ -10,7 +10,7 @@
 <?= $this->section('content') ?>
 
 
-<div class="container mt-5 pt-4 pb-5 bg-light">
+<div class="container mt-5 pt-4 pb-5 bg-light margin-navbar-fix">
 
     <?php if(isset($msg)){echo $msg;} ?>
 

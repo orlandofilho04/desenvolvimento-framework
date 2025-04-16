@@ -10,7 +10,7 @@
 <?= $this->extend('Templates_admin') ?>
 <?= $this->section('content') ?>
 
-<div class="container margin-navbar-fix">
+<div class="container">
 
     <h2 class="border-bottom border-2 border-primary mt-3 mb-4"> <?= $title ?> </h2>
 

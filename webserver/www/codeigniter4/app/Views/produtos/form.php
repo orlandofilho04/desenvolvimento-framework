@@ -11,7 +11,7 @@
 <?= $this->section('content') ?>
 
 
-<div class="container pt-4 pb-5 bg-light margin-navbar-fix">
+<div class="container pt-4 pb-5 bg-light">
     <h2 class="border-bottom border-2 border-primary">
         <?= ucfirst($form).' '.$title ?>
     </h2>
