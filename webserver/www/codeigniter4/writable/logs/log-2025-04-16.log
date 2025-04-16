@@ -1686,3 +1686,11 @@ AND `usuarios_senha` = :usuarios_senha:', [...], false)
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\orlan\\Documents\\GitHub\\desenvolvimento-framework\\webserver\\www\\codeigniter4\\public\\index.php')
 DEBUG - 2025-04-16 23:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-16 23:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-16 23:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-16 23:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-16 23:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-16 23:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-16 23:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-16 23:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-16 23:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

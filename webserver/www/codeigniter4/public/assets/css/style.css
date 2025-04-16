@@ -1,3 +1,7 @@
 .text-justify{
     text-align: justify;
 }
+
+.margin-navbar-fix{
+    margin-top: 150px;
+}
