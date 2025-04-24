@@ -71,12 +71,5 @@ $routes->post('/imgprodutos/update', 'Imgprodutos::update');
 $routes->post('/imgprodutos/search', 'Imgprodutos::search');
 $routes->get('/imgprodutos/delete/(:any)', 'Imgprodutos::delete/$1');
 
-
-
-
-
-
-
-
-
-
+$routes->get('/relatorios', 'Relatorios::index');
+$routes->get('/relatorios/index', 'Relatorios::index');
